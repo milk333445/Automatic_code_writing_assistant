@@ -1,46 +1,46 @@
 # Automatic_code_writing_assistant
 
-## 安裝步驟
-### 下載
+## Installation Steps
+### Download
 - git clone https://github.com/milk333445/Automatic_code_writing_assistant.git
 
-### 確保資料夾中有以下資料
+### Ensure the folder contains the following files
 - homepage.py
 - pages
 
-## 事前準備
+## Prerequisites
 ```python
 pip install -r requirements.txt
 ```
 
-### 執行
-- 打開終端機，切到homepage.py目錄下，執行以下程式
+### Execution
+- Open the terminal, navigate to the directory of homepage.py, and execute the following command
 ```python=
 streamlit run homepage.py
 ```
-- 會自動開啟網頁，也可複製結果網址開啟
-## 輸入api key
-- 確保在網頁右方輸入自己的openai_api key
+- The webpage will automatically open, or you can copy the resulting URL to open it.
+## Input API Key
+- Make sure to input your own openai_api key on the right side of the webpage.
 
-## 結果範例
-### 輸入問題
+## Example Results
+### Input Question
 ![範例圖片](images/image1.jpg)
 ![範例圖片](images/image2.jpg)
 ![範例圖片](images/image3.jpg)
 ![範例圖片](images/image4.jpg)
-### 代碼撰寫功能
+### Code Writing Functionality
 ![範例圖片](images/image5.jpg)
 ![範例圖片](images/image6.jpg)
 ![範例圖片](images/image7.jpg)
 ![範例圖片](images/image8.jpg)
-### 程式碼審查與重寫
+### Code Review and Rewriting
 ![範例圖片](images/image9.jpg)
 ![範例圖片](images/image10.jpg)
 ![範例圖片](images/image11.jpg)
 ![範例圖片](images/image12.jpg)
 ![範例圖片](images/image13.jpg)
 ![範例圖片](images/image14.jpg)
-### 與任務機器人互動
+### Interacting with Task Bot
 ![範例圖片](images/image15.jpg)
 ![範例圖片](images/image16.jpg)
 
