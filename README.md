@@ -24,4 +24,16 @@ streamlit run homepage.py
 
 ## 結果範例
 ![範例圖片](images/image1.jpg)
+![範例圖片](images/image2.jpg)
+![範例圖片](images/image3.jpg)
+![範例圖片](images/image4.jpg)
+![範例圖片](images/image5.jpg)
+![範例圖片](images/image6.jpg)
+![範例圖片](images/image7.jpg)
+![範例圖片](images/image8.jpg)
+![範例圖片](images/image9.jpg)
+![範例圖片](images/image10.jpg)
+![範例圖片](images/image11.jpg)
+![範例圖片](images/image12.jpg)
+![範例圖片](images/image13.jpg)
 
