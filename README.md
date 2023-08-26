@@ -19,3 +19,9 @@ pip install -r requirements.txt
 streamlit run homepage.py
 ```
 - 會自動開啟網頁，也可複製結果網址開啟
+## 輸入api key
+- 確保在網頁右方輸入自己的openai_api key
+
+## 結果範例
+![範例圖片](images/image1)
+
