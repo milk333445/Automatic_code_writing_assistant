@@ -23,20 +23,24 @@ streamlit run homepage.py
 - 確保在網頁右方輸入自己的openai_api key
 
 ## 結果範例
+### 輸入問題
 ![範例圖片](images/image1.jpg)
 ![範例圖片](images/image2.jpg)
 ![範例圖片](images/image3.jpg)
 ![範例圖片](images/image4.jpg)
+### 代碼撰寫功能
 ![範例圖片](images/image5.jpg)
 ![範例圖片](images/image6.jpg)
 ![範例圖片](images/image7.jpg)
 ![範例圖片](images/image8.jpg)
+### 程式碼審查與重寫
 ![範例圖片](images/image9.jpg)
 ![範例圖片](images/image10.jpg)
 ![範例圖片](images/image11.jpg)
 ![範例圖片](images/image12.jpg)
 ![範例圖片](images/image13.jpg)
 ![範例圖片](images/image14.jpg)
+### 與任務機器人互動
 ![範例圖片](images/image15.jpg)
 ![範例圖片](images/image16.jpg)
 
