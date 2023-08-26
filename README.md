@@ -23,5 +23,5 @@ streamlit run homepage.py
 - 確保在網頁右方輸入自己的openai_api key
 
 ## 結果範例
-![範例圖片](images/image1)
+![範例圖片](images/image1.jpg)
 
