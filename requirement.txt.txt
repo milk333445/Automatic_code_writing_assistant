@@ -1,5 +1,0 @@
-streamlit
-langchain
-ast
-subprocess
-pathlib

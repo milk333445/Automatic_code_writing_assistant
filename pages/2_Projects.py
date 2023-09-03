@@ -17,6 +17,7 @@ import numpy as np
 from langchain.chat_models import ChatOpenAI
 from langchain import PromptTemplate, OpenAI, LLMChain
 import os
+import shutil
 
 with st.sidebar:
     
@@ -195,8 +196,13 @@ def show_code(code_history):
 def file_list_code_writing(file_list, content, data_api_design):
     file_list_str = "".join(f"{index + 1}.{filename}\n" for index, filename in enumerate(file_list))
     code_history = []
-    #創建資料夾
-    os.mkdir("first_version")
+    folder_name = "first_version"
+    # 檢查資料夾是否存在
+    if os.path.exists(folder_name):
+        # 如果資料夾存在，刪除資料夾及其內容
+        shutil.rmtree(folder_name)
+    #創建新資料夾
+    os.mkdir(folder_name)
     for i in range(len(file_list)):
         code_history_str = show_code(code_history)
         raw_code = code_writing(file_list[i], content, code_history_str, data_api_design)

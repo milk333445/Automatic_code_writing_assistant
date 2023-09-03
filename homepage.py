@@ -17,6 +17,7 @@ from time import sleep
 from PIL import Image
 import subprocess
 from pathlib import Path
+import json, logging, pickle, sys, shutil, copy
 class CodeParser:
     @classmethod
     def parse_block(cls, block: str, text: str) -> str:
@@ -156,7 +157,8 @@ def mermaid_to_png(mermaid_code, output_file, width=2048, height=2048):
 
     output_file = f'{output_file}.png'
     # Call the mmdc command to convert the Mermaid code to a SVG
-    subprocess.run(['C:\\Users\\User\\anaconda3\\envs\\Fubon\\mmdc.cmd', '-i', str(tmp), '-o', output_file, '-w', str(width), '-H', str(height)]) 
+    mmdc_path = shutil.which('mmdc.cmd')
+    subprocess.run([mmdc_path, '-i', str(tmp), '-o', output_file, '-w', str(width), '-H', str(height)]) 
 #app架構
 
 
@@ -241,8 +243,11 @@ with st.expander("查看歷史紀錄"):
     st.write(st.session_state["python_package_name"])
     #stmd.st_mermaid(data_api_design)
     st.write("## 👇🏻我的資料結構設計如下:")
-    image = Image.open('data_api_design.png')
-    st.image(image, caption='Data structures and interface definitions')
+    try:
+        image = Image.open('data_api_design.png')
+        st.image(image, caption='Data structures and interface definitions')
+    except:
+        st.write("尚未生成圖片")
     st.write("## 👇🏻文件列表:")
     st.write(st.session_state["file_list"])
     st.write("## 👇🏻不清楚的地方:")

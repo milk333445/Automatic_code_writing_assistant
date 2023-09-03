@@ -18,6 +18,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain import PromptTemplate, OpenAI, LLMChain
 import os
 import subprocess
+import shutil
 
 
 ##相關函數
@@ -244,8 +245,12 @@ if st.button("下載相關套件"):
 
 if st.button("進行Code Review"):
     with st.spinner('Code Reviewing...'):      
-        
-        os.mkdir('workplace') 
+        folder_name = "workplace"
+    # 檢查資料夾是否存在
+        if os.path.exists(folder_name):
+            # 如果資料夾存在，刪除資料夾及其內容
+            shutil.rmtree(folder_name)
+        os.mkdir(folder_name) 
         #執行程式檔
         folder_path = os.path.join(os.getcwd(), "first_version")
         execution_results = {}
