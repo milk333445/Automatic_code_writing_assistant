@@ -1,5 +1,7 @@
 # Automatic_code_writing_assistant
-
+## Introduction
+This tool is designed to serve as a program assistant, simplifying the intricacies of software development by implementing structured development processes. It employs the innovative technique of Metacognitive Prompting to establish a highly organized development workflow, covering everything from task architecture and code writing to automated execution and validation.
+![範例圖片](images/架構1.jpg)
 ## Installation Steps
 ### Download
 - git clone https://github.com/milk333445/Automatic_code_writing_assistant.git
