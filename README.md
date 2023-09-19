@@ -1,6 +1,12 @@
 # Automatic_code_writing_assistant
 ## Introduction
-This tool is designed to serve as a program assistant, simplifying the intricacies of software development by implementing structured development processes. It employs the innovative technique of Metacognitive Prompting to establish a highly organized development workflow, covering everything from task architecture and code writing to automated execution and validation.
+This tool is designed to serve as a program assistant, simplifying the intricacies of software development by implementing structured development processes. 
+
+- Program Assistant Tool: This tool is designed to serve as a program development assistant, simplifying the complexities of software development.
+
+- Structured Development Processes: Utilizing the method of "Metacognitive Prompting," it establishes a highly structured development workflow, encompassing everything from task architecture and code writing to automated execution and validation.
+
+- Task Information Chatbot: It introduces a task information chatbot to further enhance the development process. This chatbot is a valuable resource for developers, offering prompt answers to queries and providing assistance, ultimately leading to a significant reduction in the time spent searching for solutions.
 
 ![範例圖片](images/架構1.jpg)
 ## Installation Steps
