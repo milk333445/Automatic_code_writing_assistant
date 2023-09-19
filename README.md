@@ -22,6 +22,13 @@ streamlit run homepage.py
 ## Input API Key
 - Make sure to input your own openai_api key on the right side of the webpage.
 
+
+## structure
+![範例圖片](images/架構1.jpg)
+![範例圖片](images/架構2.jpg)
+![範例圖片](images/架構3.jpg)
+![範例圖片](images/架構4.jpg)
+
 ## Example Results
 ### Input Question
 ![範例圖片](images/image1.jpg)
