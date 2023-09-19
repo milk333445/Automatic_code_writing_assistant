@@ -24,7 +24,7 @@ streamlit run homepage.py
 
 
 ## structure
-
+![範例圖片](images/架構1.jpg)
 ![範例圖片](images/架構2.jpg)
 ![範例圖片](images/架構3.jpg)
 ![範例圖片](images/架構4.jpg)
